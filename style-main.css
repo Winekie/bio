@@ -1,0 +1,315 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-shadow: #ffffffa0 0px 0px 10px;
+  background-color: #000000;
+  font-family: roboto;
+}
+
+::-webkit-scrollbar {
+  width: 0vw;
+}
+
+.self-picture {
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+  border-radius: 50%;
+  border-width: 0;
+  transition: 0.2s;
+  filter: grayscale(100%);
+  box-shadow: #ffffff76 0vw 0 5vw 0.001vw;
+  background-color: #000;
+  opacity: 0;
+}
+
+.self-picture:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+  border-radius: 50%;
+  border-width: 0;
+  box-shadow: #5107c8 0px 0px 50vw 2px;
+}
+
+.about_me {
+  vertical-align: middle;
+  display: table;
+  text-shadow: #000000 0px 0px 10px 10px;
+  width: 100%;
+  border-style: solid;
+  border-width: 0px;
+  background-image: url("src-main/bg-wb.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: #000000 0px 0px 40px 5px inset;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.links {
+  font-size: 1vw;
+  box-shadow: inset 0px -30px 23px -27px #000000;
+  display: table;
+  width: 100%;
+  height: 3.5vw;
+  background-color: #000000;
+  text-align: center;
+}
+
+.scoreWrap {
+  display: inline-table;
+  width: 13vw;
+  height: 27vw;
+  border-style: solid;
+  border-color: #4d46d9;
+  border-width: 0.3vw;
+  border-radius: 3vw;
+  box-sizing: border-box;
+  box-shadow: #00000084 0px 0px 10px 1px;
+  margin-top: 1.5vw;
+  margin-right: 1.5vw;
+  margin-bottom: 0.75vw;
+  transition: all 0.2s;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  z-index: 10;
+}
+
+.score {
+  display: table-cell;
+  vertical-align: bottom;
+  padding-bottom: 2vw;
+  font-size: 1.5vw;
+  font-weight: 800;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s;
+  border-radius: 2.7vw;
+  box-shadow: #000000 0px 0px 20px 2px inset;
+  background: linear-gradient(transparent, #000);
+}
+
+.score:hover {
+  box-shadow: #ffffff 0px 0px 40px 2px inset;
+}
+
+.scoreWrap:hover {
+  border-color: #ffffff;
+  box-shadow: #ffffff 0px 0px 20px 0px;
+}
+
+.vidWrap0 {
+  display: inline-block;
+  width: 27.2vw;
+  height: 15.3vw;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0vw;
+  border-radius: 2vw;
+  box-sizing: border-box;
+  box-shadow: #000000 0px 0px 20px 2px;
+  margin-top: 1.5vw;
+  margin-right: 1.5vw;
+  margin-bottom: 0vw;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.vidWrap0:hover {
+  filter: grayscale(0%);
+  box-shadow: #9c00f7 0px 0px 50vw 2px;
+}
+
+.vidWrap1 {
+  display: inline-block;
+  width: 27.2vw;
+  height: 15.3vw;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0vw;
+  border-radius: 2vw;
+  box-sizing: border-box;
+  box-shadow: #000000 0px 0px 20px 2px;
+  margin-top: 1.5vw;
+  margin-right: 1.5vw;
+  margin-bottom: 0vw;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.vidWrap1:hover {
+  filter: grayscale(0%);
+  box-shadow: #00f7ff 0px 0px 50vw 2px;
+}
+
+.vidWrap2 {
+  display: inline-block;
+  width: 27.2vw;
+  height: 15.3vw;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0vw;
+  border-radius: 2vw;
+  box-sizing: border-box;
+  box-shadow: #000000 0px 0px 20px 2px;
+  margin-top: 1.5vw;
+  margin-right: 1.5vw;
+  margin-bottom: 0vw;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.vidWrap2:hover {
+  filter: grayscale(0%);
+  box-shadow: #ffffff 0px 0px 50vw 10px;
+}
+
+.vidWrap3 {
+  display: inline-block;
+  width: 27.2vw;
+  height: 15.3vw;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0vw;
+  border-radius: 2vw;
+  box-sizing: border-box;
+  box-shadow: #000000 0px 0px 20px 2px;
+  margin-top: 1.5vw;
+  margin-right: 1.5vw;
+  margin-bottom: 0vw;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.vidWrap3:hover {
+  filter: grayscale(0%);
+  box-shadow: #fde400 0px 0px 50vw 2px;
+}
+
+.vidWrap4 {
+  display: inline-block;
+  width: 27.2vw;
+  height: 15.3vw;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0vw;
+  border-radius: 2vw;
+  box-sizing: border-box;
+  box-shadow: #000000 0px 0px 20px 2px;
+  margin-top: 1.5vw;
+  margin-right: 1.5vw;
+  margin-bottom: 0vw;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.vidWrap4:hover {
+  filter: grayscale(0%);
+  box-shadow: #ff0000ab 0px 0px 50vw 2px;
+}
+
+.vidWrap5 {
+  display: inline-block;
+  width: 27.2vw;
+  height: 15.3vw;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0vw;
+  border-radius: 2vw;
+  box-sizing: border-box;
+  box-shadow: #000000 0px 0px 20px 2px;
+  margin-top: 1.5vw;
+  margin-right: 1.5vw;
+  margin-bottom: 0vw;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.vidWrap5:hover {
+  filter: grayscale(0%);
+  box-shadow: #d97aff 0px 0px 50vw 2px;
+}
+
+.vidWrap6 {
+  display: inline-block;
+  width: 27.2vw;
+  height: 15.3vw;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0vw;
+  border-radius: 2vw;
+  box-sizing: border-box;
+  box-shadow: #000000 0px 0px 20px 2px;
+  margin-top: 1.5vw;
+  margin-right: 1.5vw;
+  margin-bottom: 0vw;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.vidWrap:hover {
+  filter: grayscale(0%);
+  box-shadow: #ffffff 0px 0px 50vw 2px;
+}
+
+.vid {
+  display: table-cell;
+  white-space: nowrap;
+  vertical-align: bottom;
+  transition: all 0.2s;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 2.7vw;
+}
+
+.scoreList {
+  overflow-x: scroll;
+  display: table;
+  height: 14vw;
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  padding: 0;
+  margin: 0;
+  display: block;
+  height: 10vw;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url(src-main/footer-bg.jpg);
+}
